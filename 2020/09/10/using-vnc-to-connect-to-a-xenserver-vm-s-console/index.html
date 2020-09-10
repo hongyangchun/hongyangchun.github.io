@@ -387,8 +387,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%8A%80%E6%9C%AF/">
-                                <span class="chip bg-color">技术</span>
+                            <a href="/tags/Xen/">
+                                <span class="chip bg-color">Xen</span>
                             </a>
                         
                     </div>
@@ -434,8 +434,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>[TOC]</p>
-<h1 id="Origianl-Post"><a href="#Origianl-Post" class="headerlink" title="Origianl Post"></a>Origianl Post</h1><p><a target="_blank" rel="noopener" href="https://www.citrix.com/blogs/2011/02/18/using-vnc-to-connect-to-a-xenserver-vms-console/">https://www.citrix.com/blogs/2011/02/18/using-vnc-to-connect-to-a-xenserver-vms-console/</a></p>
+                <h1 id="Using-VNC-to-Connect-to-a-XenServer-VM’s-Console"><a href="#Using-VNC-to-Connect-to-a-XenServer-VM’s-Console" class="headerlink" title="Using VNC to Connect to a XenServer VM’s Console"></a>Using VNC to Connect to a XenServer VM’s Console</h1><h1 id="Origianl-Post"><a href="#Origianl-Post" class="headerlink" title="Origianl Post"></a>Origianl Post</h1><p><a target="_blank" rel="noopener" href="https://www.citrix.com/blogs/2011/02/18/using-vnc-to-connect-to-a-xenserver-vms-console/">https://www.citrix.com/blogs/2011/02/18/using-vnc-to-connect-to-a-xenserver-vms-console/</a></p>
 <p>In order to present a virtual machine’s console in XenCenter, XenServer creates a VNC stream for each VM that is running on the server. The VNC session is bound to the localhost address of the server (127.0.0.1) and is therefore not directly accessible from external VNC clients. In this post I’ll discuss a quick and dirty way to connect directly to the VM’s console using a remote VNC client and an SSH tunnel. Since there is not a version of XenCenter that runs on Linux, this method allows you to connect to XenServer VM consoles from a Linux machine.</p>
 <p>This post will assume that the user doesn’t have access to XenCenter, but does have root access to the XenServers in a resource pool. To create the SSH tunnel it will expect that you’re using OpenSSH. If not, you’ll need to look at your SSH utility’s documentation to determine how to create SSH sessions and tunnels. Some VNC clients have the ability to establish SSH tunnels on their own. I’ve found these implementations to be hit or miss, so for this post we’ll separate SSH and VNC utilities. Also, note that this post will exclusively use the XenServer CLI. If you want to access the VNC console via the XAPI, documentation is found at <a target="_blank" rel="noopener" href="http://docs.vmd.citrix.com/XenServer/5.6.0fp1/1.0/en_gb/sdk.html#retrieving_vnc_consoles_with_api">here</a>.</p>
 <p>First, you’ll need to find the domain ID of the VM you’re interested in and the XenServer host that it’s running on. To do this you’ll need to SSH to one of the hosts in the resource pool and execute the following xe command:</p>
@@ -481,7 +480,7 @@
 <ol start="2">
 <li>use vnc client (ultravnc viewer) to connect to localhost:5903</li>
 </ol>
-<p><img src="C:\Users\HYC\OneDrive\githubio\source_posts\Using-VNC-to-Connect-to-a-XenServer-VM-s-Console\Untitled.png" alt="Untitled"></p>
+<p><img src="/2020/09/10/using-vnc-to-connect-to-a-xenserver-vm-s-console/Untitled.png" alt="Using%20VNC%20to%20Connect%20to%20a%20XenServer%20VM%E2%80%99s%20Console%205452a07b342441a0b6d8e27d4409748c/Untitled.png"></p>
 
             </div>
             <hr/>
@@ -495,8 +494,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%8A%80%E6%9C%AF/">
-                                    <span class="chip bg-color">技术</span>
+                                <a href="/tags/Xen/">
+                                    <span class="chip bg-color">Xen</span>
                                 </a>
                             
                         </div>
@@ -678,9 +677,7 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            [TOC]
-Origianl Posthttps://www.citrix.com/blogs/2011/02/18/using-vnc-to-connect-to-a-xenserver-vms-console/
-In order to 
+                            Using VNC to Connect to a XenServer VM’s ConsoleOrigianl Posthttps://www.citrix.com/blogs/2011/02/18/using-vnc-to-connec
                         
                     </div>
                     <div class="publish-info">
@@ -699,8 +696,8 @@ In order to
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%8A%80%E6%9C%AF/">
-                        <span class="chip bg-color">技术</span>
+                    <a href="/tags/Xen/">
+                        <span class="chip bg-color">Xen</span>
                     </a>
                     
                 </div>
