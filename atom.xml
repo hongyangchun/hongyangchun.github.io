@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Man-In-Hope</title>
+  
+  <subtitle>Hope is a good thing, maybe the best of things</subtitle>
+  <link href="https://hongyangchun.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://hongyangchun.github.io/"/>
+  <updated>2020-09-10T04:23:03.796Z</updated>
+  <id>https://hongyangchun.github.io/</id>
+  
+  <author>
+    <name>HYC</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>third post</title>
+    <link href="https://hongyangchun.github.io/2020/09/10/third-post/"/>
+    <id>https://hongyangchun.github.io/2020/09/10/third-post/</id>
+    <published>2020-09-10T04:23:03.000Z</published>
+    <updated>2020-09-10T04:23:03.796Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>second post</title>
+    <link href="https://hongyangchun.github.io/2020/09/10/second-post/"/>
+    <id>https://hongyangchun.github.io/2020/09/10/second-post/</id>
+    <published>2020-09-10T04:22:56.000Z</published>
+    <updated>2020-09-10T04:22:56.716Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>first blog</title>
+    <link href="https://hongyangchun.github.io/2020/09/10/first-blog/"/>
+    <id>https://hongyangchun.github.io/2020/09/10/first-blog/</id>
+    <published>2020-09-10T03:18:20.000Z</published>
+    <updated>2020-09-10T03:18:20.753Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
