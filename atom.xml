@@ -6,7 +6,7 @@
   <link href="https://hongyangchun.github.io/atom.xml" rel="self"/>
   
   <link href="https://hongyangchun.github.io/"/>
-  <updated>2020-09-10T04:23:03.796Z</updated>
+  <updated>2020-09-10T09:55:13.614Z</updated>
   <id>https://hongyangchun.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Using VNC to Connect to a XenServer VM&#39;s Console</title>
+    <link href="https://hongyangchun.github.io/2020/09/10/using-vnc-to-connect-to-a-xenserver-vm-s-console/"/>
+    <id>https://hongyangchun.github.io/2020/09/10/using-vnc-to-connect-to-a-xenserver-vm-s-console/</id>
+    <published>2020-09-10T09:54:06.000Z</published>
+    <updated>2020-09-10T09:55:13.614Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Origianl-Post&quot;&gt;&lt;a href=&quot;#Origianl-Post&quot; class=&quot;headerlink&quot; title=&quot;Origianl Post&quot;&gt;&lt;/a&gt;Origianl Post&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="技术" scheme="https://hongyangchun.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>third post</title>
