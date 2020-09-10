@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Man-In-Hope</title>
+  <title>demo@HYC</title>
   
-  <subtitle>Hope is a good thing, maybe the best of things</subtitle>
+  <subtitle>Hope is a good thing maybe the best of things</subtitle>
   <link href="https://hongyangchun.github.io/atom.xml" rel="self"/>
   
   <link href="https://hongyangchun.github.io/"/>
